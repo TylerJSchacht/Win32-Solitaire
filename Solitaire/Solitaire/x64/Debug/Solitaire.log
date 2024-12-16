@@ -1,2 +1,4 @@
 ﻿  Solitaire.cpp
-  Solitaire.vcxproj -> C:\Users\Tyler\source\repos\Solitaire\x64\Debug\Solitaire.exe
+C:\Users\Tyler\Documents\GitHub\Win32-Solitaire\Solitaire\Solitaire\Solitaire.cpp(85,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Tyler\Documents\GitHub\Win32-Solitaire\Solitaire\Solitaire\Solitaire.cpp(136,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Solitaire.vcxproj -> C:\Users\Tyler\Documents\GitHub\Win32-Solitaire\Solitaire\x64\Debug\Solitaire.exe
