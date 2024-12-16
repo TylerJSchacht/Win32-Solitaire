@@ -1,4 +1,7 @@
 ﻿  Solitaire.cpp
-C:\Users\Tyler\Documents\GitHub\Win32-Solitaire\Solitaire\Solitaire\Solitaire.cpp(85,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Tyler\Documents\GitHub\Win32-Solitaire\Solitaire\Solitaire\Solitaire.cpp(136,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  Solitaire.vcxproj -> C:\Users\Tyler\Documents\GitHub\Win32-Solitaire\Solitaire\x64\Debug\Solitaire.exe
+C:\Users\Tyler Schacht\Documents\GitHub\Win32-Solitaire\Solitaire\Solitaire\Solitaire.cpp(131,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Tyler Schacht\Documents\GitHub\Win32-Solitaire\Solitaire\Solitaire\Solitaire.cpp(182,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Tyler Schacht\Documents\GitHub\Win32-Solitaire\Solitaire\Solitaire\Solitaire.cpp(201,1): error C2059: syntax error: '}'
+C:\Users\Tyler Schacht\Documents\GitHub\Win32-Solitaire\Solitaire\Solitaire\Solitaire.cpp(201,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\Tyler Schacht\Documents\GitHub\Win32-Solitaire\Solitaire\Solitaire\Solitaire.cpp(202,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\Tyler Schacht\Documents\GitHub\Win32-Solitaire\Solitaire\Solitaire\Solitaire.cpp(202,1): error C1004: unexpected end-of-file found

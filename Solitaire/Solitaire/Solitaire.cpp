@@ -74,12 +74,57 @@ class Card {
 		}
 };
 
+class Tableau {
+public:
+	vector<Card> stack;
+};
+
+class SolitaireBoard{
+private:
+	vector<Tableau> tableaus[7];
+	vector<Card> tempStack;
+public:
+	SolitaireBoard(){
+	}
+	void Setup(vector<Card>& Deck) {
+		for (int tableauIndex = 0; tableauIndex > 28; tableauIndex++) {
+			switch (tableauIndex) {
+			case 6: case 12: case 17: case 21: case 24: case 26: case 27: 
+				tableaus->at(6).stack.push_back(Deck.at(Deck.size() - 1));
+				break;
+			case 5: case 11: case 16: case 20: case 23: case 25: 
+				tableaus->at(5).stack.push_back(Deck.at(Deck.size() - 1));
+				break;
+			case 4: case 10: case 15: case 19: case 22: 
+				tableaus->at(4).stack.push_back(Deck.at(Deck.size() - 1));
+				break;
+			case 3: case 9: case 14: case 18: 
+				tableaus->at(3).stack.push_back(Deck.at(Deck.size() - 1));
+				break;
+			case 2: case 8: case 13: 
+				tableaus->at(2).stack.push_back(Deck.at(Deck.size() - 1));
+				break;
+			case 1: case 7: 
+				tableaus->at(1).stack.push_back(Deck.at(Deck.size() - 1));
+				break;
+			case 0: tableaus->at(0).stack.push_back(Deck.at(Deck.size() - 1));
+				break;
+			}
+		}
+	}
+};
+
 void AddCardsAndShuffleDeck(vector<Card> &Deck);
+
+void SetupSolitaire(vector<Card> &Deck);
 
 int main()
 {
 	vector<Card> Deck;
 	AddCardsAndShuffleDeck(Deck);
+
+	SolitaireBoard board;
+	board.Setup(Deck);
 
 
 	// Debugging displays every card within the deck from back to front
@@ -144,4 +189,13 @@ void AddCardsAndShuffleDeck(vector<Card> &Deck) {
 		Deck.at(deckIndex).copyCard(Deck.at(randInt));
 		Deck.at(randInt).copyCard(tempCard);
 	}
+}
+
+void SetupSolitaire(vector<Card>& Deck) {
+	vector<Card> Tableau01;
+	vector<Card> Tableau02;
+	vector<Card> Tableau03;
+	vector<Card> Tableau04;
+	vector<Card> Tableau05;
+	vector<Card> T
 }
