@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Tyler Schacht\\Documents\\GitHub\\Win32-Solitaire\\Solitaire\\",
+  "WorkspaceRootPath": "C:\\Users\\Tyler\\Documents\\GitHub\\Win32-Solitaire\\Solitaire\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{225B7C86-FA54-40A5-98A4-4020F208C6D3}|Solitaire\\Solitaire.vcxproj|C:\\Users\\Tyler Schacht\\Documents\\GitHub\\Win32-Solitaire\\Solitaire\\Solitaire\\Solitaire.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{225B7C86-FA54-40A5-98A4-4020F208C6D3}|Solitaire\\Solitaire.vcxproj|C:\\Users\\Tyler\\Documents\\GitHub\\Win32-Solitaire\\Solitaire\\Solitaire\\Solitaire.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{225B7C86-FA54-40A5-98A4-4020F208C6D3}|Solitaire\\Solitaire.vcxproj|solutionrelative:Solitaire\\Solitaire.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Solitaire.cpp",
-              "DocumentMoniker": "C:\\Users\\Tyler Schacht\\Documents\\GitHub\\Win32-Solitaire\\Solitaire\\Solitaire\\Solitaire.cpp",
+              "DocumentMoniker": "C:\\Users\\Tyler\\Documents\\GitHub\\Win32-Solitaire\\Solitaire\\Solitaire\\Solitaire.cpp",
               "RelativeDocumentMoniker": "Solitaire\\Solitaire.cpp",
-              "ToolTip": "C:\\Users\\Tyler Schacht\\Documents\\GitHub\\Win32-Solitaire\\Solitaire\\Solitaire\\Solitaire.cpp",
+              "ToolTip": "C:\\Users\\Tyler\\Documents\\GitHub\\Win32-Solitaire\\Solitaire\\Solitaire\\Solitaire.cpp",
               "RelativeToolTip": "Solitaire\\Solitaire.cpp",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAMwMQAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAAAHUAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-11T03:29:15.621Z",
               "EditorCaption": ""
